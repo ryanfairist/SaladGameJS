@@ -1,4 +1,18 @@
-body {
-		background-image: url("http://i1382.photobucket.com/albums/ah266/ryanfairist/salad_zpsbn8yqgjq.jpg")no-repeat center center;
-        background-size: cover;
-    }
+/* Jumbotron */ 
+.jumbotron {
+	background: url("http://i1382.photobucket.com/albums/ah266/ryanfairist/salad_zpsbn8yqgjq.jpg") no-repeat center center;
+	background-size: cover;
+	height: 500px;
+	text-align: center;
+	margin-bottom: 0;
+	margin-top: 10px;
+}
+
+
+.receipe{
+  display:none;
+  color:#8A36E5;
+  list-style: none;
+  font-size: 14px;
+  font-weight:bold;
+}
