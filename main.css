@@ -1,18 +1,107 @@
+body {
+	background-color: #FF3296;
+}
 /* Jumbotron */ 
 .jumbotron {
-	background: url("http://i1382.photobucket.com/albums/ah266/ryanfairist/salad_zpsbn8yqgjq.jpg") no-repeat center center;
+	background: url("http://i1382.photobucket.com/albums/ah266/ryanfairist/vegetables-905382_1920_zpssuwg69sb.jpg") no-repeat center center;
 	background-size: cover;
 	height: 500px;
 	text-align: center;
 	margin-bottom: 0;
 	margin-top: 10px;
+	color: #FF3296;
+	font-family: 'Dosis';
+	font-style:bold;
 }
 
+.jumbotron h1 {
+	font-size: 125px;
+	text-shadow: 4px 4px #FFF;
+	margin-top:25px;
+}
 
-.receipe{
+/* GameQuiz Button*/
+#start {
+	margin-bottom: 25px;
+	margin-top:25px;
+}
+
+#start {
+  padding: 20px 40px;
+  color: #fff;
+  background-color: #ff3296;
+  animation: pulse 1s ease infinite;
+  /* transition: transform 0.2s; */
+}
+#start:hover {
+  color: #fff;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+/*JS toggle*/
+
+.recipe{
   display:none;
-  color:#8A36E5;
-  list-style: none;
+  color:#000;
   font-size: 14px;
   font-weight:bold;
+  text-shadow: 1px 1px #fff;
 }
+
+.recipe ul {
+	list-style-type: none;
+}
+/*JSToggle Pictures*/
+
+#Sleek {
+	background: url("http://i1382.photobucket.com/albums/ah266/ryanfairist/girl-237871_1920_zpsyhlskz0k.jpg") no-repeat center center;
+	background-size: cover;
+	height:400px;
+	margin: 10px;
+    border-radius: 5px
+}
+
+#Preppy {
+	background: url("http://i1382.photobucket.com/albums/ah266/ryanfairist/sunglasses-635269_1920_zpsfiugfvbr.jpg") no-repeat center center;
+	background-size: cover;
+	height:400px;
+	margin: 10px;
+    border-radius: 5px
+}
+
+#Business{
+	background: url("http://i1382.photobucket.com/albums/ah266/ryanfairist/tiger-653697_1920_zps6hsf3mvb.jpg") no-repeat center center;
+	background-size: cover;
+	height:400px;
+	margin: 10px;
+    border-radius: 5px
+}
+
+#Soho {
+	background: url("http://i1382.photobucket.com/albums/ah266/ryanfairist/beauty-863439_1920_zpsd8oxdaca.jpg") no-repeat center center;
+	background-size: cover;
+	height:400px;
+	margin: 10px;
+    border-radius: 5px
+}
+
+/*STYLE BUTTONS*/
+
+.style {
+	background-color:#FFEB4B;
+	color:#B21160;
+	font-style: bold;
+}
+
