@@ -7,8 +7,8 @@ body {
 	background-size: cover;
 	height: 500px;
 	text-align: center;
-	margin-bottom: 0;
-	margin-top: 10px;
+	margin-bottom: 0px;
+	margin-top: 0px;
 	color: #FF3296;
 	font-family: 'Dosis';
 	font-style:bold;
@@ -70,7 +70,7 @@ body {
 	background-size: cover;
 	height:400px;
 	margin: 10px;
-    border-radius: 5px
+    border-radius: 5px;
 }
 
 #Preppy {
@@ -78,7 +78,7 @@ body {
 	background-size: cover;
 	height:400px;
 	margin: 10px;
-    border-radius: 5px
+    border-radius: 5px;
 }
 
 #Business{
@@ -86,7 +86,7 @@ body {
 	background-size: cover;
 	height:400px;
 	margin: 10px;
-    border-radius: 5px
+    border-radius: 5px;
 }
 
 #Soho {
@@ -94,7 +94,7 @@ body {
 	background-size: cover;
 	height:400px;
 	margin: 10px;
-    border-radius: 5px
+    border-radius: 5px;
 }
 
 /*STYLE BUTTONS*/
@@ -103,5 +103,38 @@ body {
 	background-color:#FFEB4B;
 	color:#B21160;
 	font-style: bold;
+}
+
+/*Footer*/
+.footer {
+	background-color:#272727;
+	margin-top:100px;
+	margin-left:0px;
+    margin-right:0px;
+}
+.footer li {
+	display: inline-block;
+	color:#fff;
+	font-family: "Arial";
+	padding:15px;
+	font-size:10px;
+}
+.footer li a:visited{
+	text-decoration: none;
+	color:#fff;
+}
+.footer li a:link{
+	text-decoration: none;
+	color:#999;
+}
+.footer li a:hover{
+	text-decoration: none;
+	color:#B21160;
+	font-weight:bold;
+}
+.footer li a:active{
+	text-decoration: none;
+	color:#fff;
+	font-weight:bold;
 }
 
